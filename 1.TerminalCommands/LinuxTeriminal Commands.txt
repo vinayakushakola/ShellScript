@@ -1,0 +1,30 @@
+Linux Terminal Commands
+
+cd    - To Change directory or drive
+pwd   - To check current directory
+ls    - To see what files are there in a drive or directory
+cp    - To copy
+mv    - To move
+rm    - To delete
+rm -R - To delete directory
+cat   - To view
+echo  - To print
+less  - To view like cat but in another window
+grep  - Grep command in Unix/Linux is the short form of global search for the regular expression
+awk   - The awk command is a powerful method for processing or analyzing text files and piping
+chmod - Used to change the file permissions like read write executable
+clear - clear screen
+
+Permissions
+0=0     - nothing
+1=1     - execute
+2=2     - write
+3=2+1   - w+x 
+4=4     - read
+5=4+1   - r+x
+6=4+2   - r+w
+7=4+2+1 - r+w+x
+
+chmod 777 filename
+chmod ugo filename - permission to user group other(ugo)
+chmod +x filename

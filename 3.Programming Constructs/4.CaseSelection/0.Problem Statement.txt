@@ -1,0 +1,8 @@
+
+1. Read a single digit number and write the number in word using Case
+2. Read a Number and Display the week day (Sunday, Monday,…)
+3. Read a Number 1, 10, 100, 1000, etc and display unit, ten, hundred,…
+4. Write a program that takes User Inputs and does Unit Conversion of
+   different Length units
+   1. Feet to Inch 3. Inch to Feet
+   2. Feet to Meter 4. Meter to Feet

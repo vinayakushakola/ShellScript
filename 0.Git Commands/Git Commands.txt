@@ -1,0 +1,12 @@
+git status                     - To check is it a repository or not
+git init                       - To make it a Repository
+git add README.md              - In this we can write about Repository basically description
+git add filename               -  
+git commit -m "First Commit"   - Commit is like commenting on your code
+git remote add origin https://github.com/vinayakushakola/Your-Repository-Name.git - Mentioning the link to upload files
+git push -u origin master      - Finally pushing our files to github/ Uploading
+git pull                       - To download
+
+
+
+

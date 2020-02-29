@@ -1,0 +1,42 @@
+1. What is a Programming Construct?
+-> A Programming Construct is to control the
+   order/flow in which instructions are
+   executed.
+
+2. What is a Programming Statement?
+-> In programming languages, the expression
+   which translates to an instruction is called a
+   programming statement or just statement. 
+
+3. Programming Constructs Classification?
+-> 1. Sequences
+   2. Selection
+   3. Repetition
+
+1. Sequence Statement
+	A sequence construct tells the CPU (processor)
+   which statement is to be executed next.  
+
+2. Selection Statement
+	a. A selection statement provides for selection
+	between alternatives
+	b. A program can take certain route
+	depending on a situation and selection
+  	statements help in choosing between the
+  	routes.
+2. Selection Statement Types
+	a. If statements
+	b. Case Statements
+	c. Pattern Matching
+
+3. Repetition Statement
+	A repetition construct causes a group of one or
+	more program statements to be invoked
+  	repeatedly until some end condition is met.
+3. Repetition Statement Types
+	1. Fixed count loops - repeat a predefine number
+	   of times.
+	   for (( … )) do done
+	2. Variable count loops - repeat an unspecified
+	   number of times.
+	   while [ … ] do done

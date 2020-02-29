@@ -1,0 +1,14 @@
+1. What is a Program?
+-> A program is a set of instructions that the computer executes.
+
+2. What is a Program - To be more Precise
+-> To be more precise, a program is a set of instructions loaded 
+   in the CPU that the CPU executes to achieve an outcome.
+   A Program is mainly set of instructions.
+   Instructions in CPU run by the Computer.
+ 
+3. Core Hardware Components to Run a Program?
+-> The two major components to execute a program are
+   a) CPU to run a set of instructions
+   b) Memory(RAM) that works as a temporary storage to
+      help the CPU achieve the desired outcome/output.

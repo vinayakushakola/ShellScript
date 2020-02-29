@@ -1,0 +1,13 @@
+
+1. Write a program that takes a command-line argument n and prints a table of the
+   powers of 2 that are less than or equal to 2^n.
+2. Write a program that takes a command-line argument n and prints the nth harmonic
+   number. Harmonic Number is of the form
+3. Write a program that takes a input and determines if the number is a prime.
+4. Extend the program to take a range of number as input and output the Prime
+   Numbers in that range.
+5. Write a program that computes a factorial of a number taken as input.
+      5 Factorial – 5! = 1 * 2 * 3 * 4 * 5
+6. Write a program to compute Factors of a number N using prime factorization method.
+   Logic -> Traverse till i*i <= N instead of i <= N for efficiency.
+   O/P -> Print the prime factors of number N.

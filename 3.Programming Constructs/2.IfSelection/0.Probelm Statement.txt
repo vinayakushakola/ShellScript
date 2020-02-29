@@ -1,0 +1,11 @@
+
+1. Write a program that reads 5 Random 3 Digit values and then outputs the minimum
+   and the maximum value
+2. Write a program that takes day and month from the command line and prints true if
+   day of month is between March 20 and June 20, false otherwise.
+3. Write a program that takes a year as input and outputs the Year is a Leap Year or not
+   a Leap Year. A Leap Year checks for 4 Digit Number, Divisible by 4 and not 100 unless
+   divisible by 400.
+4. Write a program to simulate a coin flip and print out "Heads" or "Tails" accordingly.
+
+Probelem Statement 1 is incomplete
