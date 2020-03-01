@@ -1,0 +1,22 @@
+Functions
+->	Functions in Bash Scripting are a great way to
+   reuse code.
+	Think of a function as a small script within a
+   script. It's a small chunk of code which you may
+   call multiple times within your script. They are
+   particularly useful if you have certain tasks which
+   need to be performed several times.
+
+Problem Statement
+
+1. Help user find degF or degC based on their Conversion Selection. Use
+   Case Statement and ensure that the inputs are within the Freezing Point (
+   0 °C / 32 °F ) and the Boiling Point of Water ( 100 °C / 212 °F )
+	a. degF = (degC * 9/5) + 32
+	b. degC = (degF – 32) * 5/9
+2. Write a function to check if the two numbers are Palindromes
+3. Take a number from user and check if the number is a Prime then show
+   that its palindrome is also prime
+	a. Write function check if number is Prime
+	b. Write function to get the Palindrome
+	c. Check if the Palindrome number is also prime
