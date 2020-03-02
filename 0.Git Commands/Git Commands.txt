@@ -7,6 +7,10 @@ git remote add origin https://github.com/vinayakushakola/Your-Repository-Name.gi
 git push -u origin master      - Finally pushing our files to github/ Uploading
 git pull                       - To download
 
+git checkout -b <new_branch>   - Creates new branch
+git checkout -d <branch_name>  - Deletes branch
+git checkout <branch_name>     - To change branch
+
 
 
 
