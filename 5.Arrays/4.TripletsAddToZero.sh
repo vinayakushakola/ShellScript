@@ -2,7 +2,7 @@
 read -p "Enter size of array: " num
 for(( n=0; n<$num; n++))
 do
-	read arr[$n]
+	read -p "Enter number: " arr[$n]
 done
 
 echo Array is ${arr[@]}
@@ -13,7 +13,6 @@ do
 	do
 		for(( k=$(($j+1)); k<${#arr[@]}; k++ ))
 		do
-			#echo $((${arr[i]} + ${arr[j]}))
 			if [ $((${arr[i]} + ${arr[j]} + ${arr[k]})) -eq 0 ]
 			then
 				echo ${arr[i]} ${arr[j]} and ${arr[k]}
