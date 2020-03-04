@@ -1,0 +1,6 @@
+RegEx Patterns
+
+Pattern - ^[0-9]*[a-zA-Z]{3,}[0-9a-zA-Z]$
+Pincode - ^[0-9]{6}||[0-9]{3}[ ][0-9]{3}$
+Pincode with space between - ^[0-9]{3}[ ]?[0-9]{3}$
+Pincode with space between - ^[0-9]{3}[[ ]]{0,1}[0-9]{3}$

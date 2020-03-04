@@ -1,0 +1,15 @@
+Create a file with any names
+apple
+bat
+ball
+ant
+eat
+pant
+people
+taste
+
+Using this commands in your terminal
+
+cat sample.txt | grep ^a
+cat sample.txt | grep ll$
+cat sample.txt |grep aa

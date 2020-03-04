@@ -1,0 +1,15 @@
+^ - Start of String
+$ - End of String or Line
+. - Any Character
++ - Matcheds up zero or many times the preceding character
+\ - Special characters
+? - Matches up exactly one character
+* - Match zero or more characters
+? - Match any single character
+[ ] - Matches any of the character in a set
+
+
+shopt -s extglob - To turn on
+
+
+
