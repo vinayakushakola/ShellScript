@@ -14,7 +14,7 @@ function check () {
 	emailPattern="^([a-zA-Z]{3,}([.|_|+|-]?[a-zA-Z0-9]+)?[@][a-zA-Z0-9]+[.][a-zA-Z]{2,3}([.]?[a-zA-Z]{2,3})?)$"
 	phonePattern="^([0-9]{1,3}[ ][1-9]{1}[0-9]{9})$"
 	passPattern="^[a-zA-Z0-9]{0,1}{8,}$"
-	oneUpperCaseLetter="^([A-Z]{1,}?[a-zA-Z0-9]{7,})$"
+	oneUpperCaseLetter="^[A-Za-z0-9]{0,1}([A-Z]+)?[a-zA-Z0-9]{8,}$"
 	atleatOneNumeric="^(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]{8,}$"
 	if [[ $name =~ $namePattern ]]
 	then
