@@ -1,11 +1,14 @@
 ^ - Start of String
 $ - End of String or Line
 . - Any Character
-+ - Matcheds up zero or many times the preceding character
++ - 1 or more of a character
 \ - Special characters
-? - Matches up exactly one character
-* - Match zero or more characters
-? - Match any single character
+? - 0 or one character
+* - 0 or more of a character
+
+{3} - A certain number range
+{2,4} - range 2 to 4
+{2,} - 2 to N
 [ ] - Matches any of the character in a set
 
 
