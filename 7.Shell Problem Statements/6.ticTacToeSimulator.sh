@@ -4,14 +4,14 @@ board=("-" "-" "-" "-" "-" "-" "-" "-" "-")
 current_player="X"
 gameStillGoing=true
 function resetBoard () {
-        board=("-" "-" "-" "-" "-" "-" "-" "-" "-")
+	board=("-" "-" "-" "-" "-" "-" "-" "-" "-")
 }
 function Displayboard () {
-        echo
-        echo ${board[0]} "|" ${board[1]} "|" ${board[2]}
-        echo ${board[3]} "|" ${board[4]} "|" ${board[5]}
-        echo ${board[6]} "|" ${board[7]} "|" ${board[8]}
-        echo
+	echo
+	echo ${board[0]} "|" ${board[1]} "|" ${board[2]}
+	echo ${board[3]} "|" ${board[4]} "|" ${board[5]}
+	echo ${board[6]} "|" ${board[7]} "|" ${board[8]}
+	echo
 }
 function playGame () {
 	Displayboard
@@ -33,9 +33,9 @@ function flipPlayer () {
 }
 
 function handle_turn() {
-    position=0
+	position=0
 	count=0
-    valid=false
+	valid=false
 	while [ $valid == false ]
 	do
 		if [ $current_player == "O" ]
@@ -56,8 +56,8 @@ function handle_turn() {
 			fi
 		fi
 	done
-    board[$position]=$1
-    Displayboard
+    	board[$position]=$1
+    	Displayboard
 }
 function check_if_Gameover () {
 	if [[ ( ${board[0]} == "X"  &&  ${board[1]} == "X"  &&  ${board[2]} == "X" ) || ( ${board[0]} == "O"  &&  ${board[1]} == "O"  &&  ${board[2]} == "O" ) ]]
