@@ -11,6 +11,8 @@ git checkout -b <new_branch>   - Creates new branch
 git checkout -d <branch_name>  - Deletes branch
 git checkout <branch_name>     - To change branch
 
+git merge <branch_name>        - To merge branch
+git reset --hard <branch_name> - To revert merge  
 
 
 
